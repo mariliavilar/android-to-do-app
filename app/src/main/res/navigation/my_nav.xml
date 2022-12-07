@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/toDoListFragment"
-        android:name="com.mariliavilar.todoappcleanarchitecture.ToDoListFragment"
+        android:name="com.mariliavilar.todoappcleanarchitecture.fragments.toDoList.ToDoListFragment"
         android:label="fragment_to_do_list"
         tools:layout="@layout/fragment_to_do_list" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/addTaskFragment"
-        android:name="com.mariliavilar.todoappcleanarchitecture.AddTaskFragment"
+        android:name="com.mariliavilar.todoappcleanarchitecture.fragments.addTask.AddTaskFragment"
         android:label="fragment_add_task"
         tools:layout="@layout/fragment_add_task" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/editTaskFragment"
-        android:name="com.mariliavilar.todoappcleanarchitecture.EditTaskFragment"
+        android:name="com.mariliavilar.todoappcleanarchitecture.fragments.editTask.EditTaskFragment"
         android:label="fragment_edit_task"
         tools:layout="@layout/fragment_edit_task" >
         <action
